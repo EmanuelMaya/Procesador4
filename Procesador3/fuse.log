@@ -1,0 +1,46 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/TB_Procesador_3_isim_beh.exe -prj C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/TB_Procesador_3_beh.prj work.TB_Procesador_3 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/Windows_Manager.vhd" into library work
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/UC.vhd" into library work
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/Sumador.vhd" into library work
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/SEU.vhd" into library work
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/RF.vhd" into library work
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/PSRModifier.vhd" into library work
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/PSR.vhd" into library work
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/PC.vhd" into library work
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/MUX.vhd" into library work
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/instructionMemory.vhd" into library work
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/Procesador3.vhd" into library work
+Parsing VHDL file "C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/TB_Procesador_3.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1242 - "N:/P.20131013/rtf/vhdl/src/ieee/std_logic_arith.vhd" Line 2415: Warning: "CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0."
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package numeric_std
+Compiling architecture behavioral of entity Sumador [sumador_default]
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity instructionMemory [instructionmemory_default]
+Compiling architecture arq_procesador4 of entity Windows_Manager [windows_manager_default]
+Compiling architecture behavioral of entity UC [uc_default]
+Compiling architecture behavioral of entity RF [rf_default]
+Compiling architecture behavioral of entity MUX [mux_default]
+Compiling architecture behavioral of entity SEU [seu_default]
+Compiling architecture behavioral of entity PSRModifier [psrmodifier_default]
+Compiling architecture behavioral of entity PSR [psr_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture arq_procesador3 of entity Procesador3 [procesador3_default]
+Compiling architecture behavior of entity tb_procesador_3
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable C:/Users/Emanuel Maya/Documents/Digitales/Procesador3/TB_Procesador_3_isim_beh.exe
+Fuse Memory Usage: 37556 KB
+Fuse CPU Usage: 1217 ms
